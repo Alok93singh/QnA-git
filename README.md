@@ -23,3 +23,6 @@ what is terraform?
 
 What is heapester in k8s?
 
+Difference between docker swarm and kubernetes?
+
+self-healing, auto-scaling  added in k8s
