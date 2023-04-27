@@ -5,7 +5,7 @@ How to integrate git to jenkins?
 github plugin and put repo name
 
 how to install jenkins?
-
+https://github.com/Alok93singh/setupjenkins/blob/main/installjenkinsserver
 
 what is load balancer?
 
