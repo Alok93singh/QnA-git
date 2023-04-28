@@ -27,5 +27,7 @@ Difference between docker swarm and kubernetes?
 
 What are default env variables in jenkins?
 
+What is netmask and subnet in IP address? 
+
 self-healing, auto-scaling  added in k8s
 ![1 xzLZVPBlFvLsVPaqtracvw](https://user-images.githubusercontent.com/26188522/234952427-d4498463-6b10-4076-9e70-c701295e1cf3.png)
