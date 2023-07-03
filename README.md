@@ -20,3 +20,6 @@ what is terraform?
 
 What is heapester in k8s?
 
+How to stop and start declarative pipelines?
+
+how to transfer values from one jenkins project to another project ?
