@@ -20,6 +20,10 @@ public and private subnet?
 
 u mask value for root user?
 
+how to check open ports in linux?
+
+what is swap memory?
+
 Types of Jenkins pipeline?
 
 How to integrate git to Jenkins?
