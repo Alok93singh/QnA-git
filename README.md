@@ -18,6 +18,7 @@ One elastic IP for how many VMs?
 
 public and private subnet?
 
+u mask value for root user?
 
 Types of Jenkins pipeline?
 
