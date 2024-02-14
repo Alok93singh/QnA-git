@@ -109,3 +109,9 @@ Can we run each stage with different agent in jenkins?
 How to connect EC2 instance with rds?
 
 How to change terraform version in code?
+
+Maximum number of elestic IP in account ---- 5
+Maximum number of VPC in single region ----- 5
+
+
+Cannot change CIDR of VPC after creation.
