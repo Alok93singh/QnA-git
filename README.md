@@ -172,5 +172,64 @@ To https://github.com/Alok93singh/proj.git
 Aloks-MacBook-Air:proj aloksingh$ 
 Aloks-MacBook-Air:proj aloksingh$ 
 Aloks-MacBook-Air:proj aloksingh$ 
+
+
+
+## ADD and USE Other branch
+
+Aloks-MacBook-Air:proj aloksingh$ git fetch -a
+From https://github.com/Alok93singh/proj
+   9b4f610..332225c  main       -> origin/main
+ * [new branch]      master     -> origin/master
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git checkout master
+branch 'master' set up to track 'origin/master'.
+Switched to a new branch 'master'
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git commit -m "secondmerge"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git push origin12 master
+Everything up-to-date
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ ls
+README.md	text.sh
+Aloks-MacBook-Air:proj aloksingh$ cat text.sh 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ vi text.sh 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git add .
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git commit -m "seconcommi"
+[master f0bf6f6] seconcommi
+ 1 file changed, 1 insertion(+)
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git push origin12 master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 280 bytes | 280.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Alok93singh/proj.git
+   9b4f610..f0bf6f6  master -> master
+Aloks-MacBook-Air:proj aloksingh$ 
+
 Aloks-MacBook-Air:proj aloksingh$ 
 Aloks-MacBook-Air:proj aloksingh$ 
