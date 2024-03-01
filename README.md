@@ -1,121 +1,176 @@
-what is I node in Linux?
 
-check memory space in Linux?
+Aloks-MacBook-Air:proj aloksingh$ git init
+Reinitialized existing Git repository in /Users/aloksingh/Documents/gittest/proj1/proj/.git/
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
-check file size in Linux?
+nothing to commit, working tree clean
+Aloks-MacBook-Air:proj aloksingh$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
-Difference between rmdir and rmi?
+nothing to commit, working tree clean
+Aloks-MacBook-Air:proj aloksingh$ touch text.sh
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
-Below commands in Linux?
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	text.sh
 
-AWK, grep, sed, dig, nslookup,
+nothing added to commit but untracked files present (use "git add" to track)
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git add .
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
-what is EC2?
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   text.sh
 
-what is public IP? 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git commit -m "commit1" 
+[main 9b4f610] commit1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 text.sh
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git rmote add origin https://github.com/Alok93singh/proj.git
+git: 'rmote' is not a git command. See 'git --help'.
 
-One elastic IP for how many VMs?
+The most similar command is
+	remote
+Aloks-MacBook-Air:proj aloksingh$ git remote add origin https://github.com/Alok93singh/proj.git
+error: remote origin already exists.
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Alok93singh/proj.git'
+Aloks-MacBook-Air:proj aloksingh$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 269 bytes | 134.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Alok93singh/proj.git
+   1ec05da..9b4f610  main -> main
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
 
-public and private subnet?
+## Add repo with different name
 
-u mask value for root user?
+Aloks-MacBook-Air:proj aloksingh$ git remote add origin12 https://github.com/Alok93singh/proj.git
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
-how to check open ports in linux?
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   text.sh
 
-what is swap memory?
+no changes added to commit (use "git add" and/or "git commit -a")
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git add .
+Aloks-MacBook-Air:proj aloksingh$   git merge -m "second merge"
+Already up to date.
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git push origin12 main
+Everything up-to-date
+Aloks-MacBook-Air:proj aloksingh$ cat text.sh 
+bhdcbdhcds
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git ststus
+git: 'ststus' is not a git command. See 'git --help'.
 
-Types of Jenkins pipeline?
+The most similar command is
+	status
+Aloks-MacBook-Air:proj aloksingh$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
-How to integrate git to Jenkins?
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   text.sh
 
-how to install Jenkins?
+Aloks-MacBook-Air:proj aloksingh$ git add .
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
-what are load balancers, types, algorithms, and protocols?
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   text.sh
 
-gateway load balancer?
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git push origin main
+Everything up-to-date
+Aloks-MacBook-Air:proj aloksingh$ git add .
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ touch sec.sh
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
-availability zone and availability set?
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   text.sh
 
-What is the Fall domain?
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	sec.sh
 
-what is the life cycle of the S3 bucket?
-
-On-demand, spot instance,  and reserve instance?
-
-Type of Jenkins pipeline?
-
-stateful and stateless firewall?
-
-Importent command in terraforms ?
-
-what is a state file in Terraform?
-
-what happens when a state file is deleted, how to recover a state file?
-
-Docker networks?
-
-add and copy command difference?
-
-What is VPC?
-
-What is groovy?
-
-K8s Cluster architecture?
-
-How to create a user and assign it to the group?
-
-What is ansible?
-
-what is terraform?
-
-What is heapester in k8s?
-
-How to stop and start declarative pipelines?
-
-If the system is stop then how cron job will run, and when the system will restart?
-
-Disk utilization is 100% what are the reasons?
-
-15 commands of git?
-
-What is git push origin?
-
-Git fetch command, rebase?
-
-continuous delivery and deployment?
-
-how to debug if website is not working?
-
-how to transfer values from one Jenkins project to another project?
-
-Vertical and horizontal scaling?
-
-Session dranning?
-
-Difference between minimum and desizred?
-
-Alias in route 53?
-
-Alias is used in ec2?
-
-Docker design version?
-
-How to block specific IP for EC2 container?
-
-How to connect two VPC from different regions?
-
-Can we run each stage with different agent in jenkins?
-
-How to connect EC2 instance with rds?
-
-How to change terraform version in code?
-
-Maximum number of elestic IP in account ---- 5
-
-Maximum number of VPC in single region ----- 5
-
-
-Cannot change CIDR of VPC after creation.
-
-
-TEST
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git add .
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git commit -m "secondmerge"
+[main 332225c] secondmerge
+ 2 files changed, 1 insertion(+)
+ create mode 100644 sec.sh
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ git push origin12 main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 314 bytes | 104.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Alok93singh/proj.git
+   9b4f610..332225c  main -> main
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
+Aloks-MacBook-Air:proj aloksingh$ 
