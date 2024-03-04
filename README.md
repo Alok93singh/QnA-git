@@ -20,7 +20,7 @@ public and private subnet?
 
 u mask value for root user?
 
-how to check open ports in linux?
+how to check open ports in linux? --- netstate -tuln
 
 what is swap memory?
 
